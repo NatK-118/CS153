@@ -8,7 +8,7 @@ const SectionView = () => {
     return (
         <View style={{flexDirection: 'column', flex: 1}}>
             <Text>Audio files will go here</Text>
-            <Button title="Play" disabled={isPlaying} onPress={setPlaying(true)}/>
+            <Button title="Play" disabled={isPlaying} onPress={() => setPlaying(true)}/>
         </View>
     );
 };
