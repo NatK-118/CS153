@@ -23,7 +23,7 @@ const NavigationStack = () => {
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={MainScreen} options={{title: "Natalie's App"}}/>
                 <Stack.Screen name="Recorder" component={Recorder}/>
-                <Stack.Screen name="Sample Sounds" component={SampleSounds}/>
+                <Stack.Screen name="SampleSounds" component={SampleSounds}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
