@@ -1,1 +1,1 @@
-# CS153
+This is a project I did for class. This app is meant to be a recorder and sound tester, but it is still very minimal. There are two pages, one for recording and the other for listening to sample sounds.
